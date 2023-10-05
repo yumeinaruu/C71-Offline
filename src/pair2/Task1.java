@@ -84,5 +84,6 @@ public class Task1 {
                 break;
         }
         System.out.println("Hello git");
+        System.out.println("Check my branch");
     }
 }
