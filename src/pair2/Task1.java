@@ -83,5 +83,6 @@ public class Task1 {
                 System.out.println("Осень");
                 break;
         }
+        System.out.println("Hello git");
     }
 }
