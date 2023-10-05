@@ -9,7 +9,7 @@ public class Task1 {
         int month = scanner.nextInt();
         switch (month) {
             case 1: {
-                System.out.println("Июнь");
+                System.out.println("Январь");
                 break;
             }
             case 2: {
