@@ -8,7 +8,7 @@ public class Task1 {
         System.out.print("Введите номер месяца: ");
         int month = scanner.nextInt();
         switch (month) {
-            case 100: {
+            case 1: {
                 System.out.println("Июнь");
                 break;
             }
