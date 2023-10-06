@@ -12,7 +12,7 @@ public class Task1 {
                 System.out.println("Июнь");
                 break;
             }
-            case 2: {
+            case 20: {
                 System.out.println("Февраль");
                 break;
             }
