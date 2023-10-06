@@ -14,20 +14,15 @@ public class Task5 {
         int num = 0;
         int sum = 0;
 
-        while(true){
-            System.out.print("Введите число: ");
-            if(scanner.hasNextInt()){
-                num = scanner.nextInt();
-                break;
-            } else{
-                System.out.println("Введено неверное число. Попробуй снова");
+        System.out.print("Введите число: ");
+        if (scanner.hasNextInt()) {
+            num = scanner.nextInt();
+            for (int i = 1; i <= num; i++) {
+                sum = sum + i;
             }
+            System.out.println("Сумма всех чисел: " + sum);
+        } else {
+            System.out.println("Введено неверное число. Попробуй снова");
         }
-
-
-        for(int i = 1; i <= num; i++){
-            sum = sum + i;
-        }
-        System.out.println("Сумма всех чисел: " + sum);
     }
 }
