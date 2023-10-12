@@ -31,7 +31,7 @@ public class Task1 {
 
 
         String[] fruits = new String[4];
-        for (int i = 0; i < fruits.length; i++){
+        for (int i = 0; i < fruits.length; i++) {
             fruits[i] = scanner.nextLine();
         }
         System.out.println(fruits[1] + " " + fruits[2] + "\n" + fruits.length);
