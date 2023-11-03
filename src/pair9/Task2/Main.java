@@ -6,5 +6,6 @@ public class Main {
         Computer hp = new Hp();
         mac.getComputerName();
         hp.getComputerName();
+        System.gc();
     }
 }
