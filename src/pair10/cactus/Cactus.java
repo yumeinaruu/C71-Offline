@@ -9,7 +9,7 @@ public class Cactus implements Cloneable{
     public int cost = 100;
     public String color = "Green";
 
-    /*@Override
+  /*  @Override
     public String toString() {
         return "Cactus cost = " + cost;
     }*/
