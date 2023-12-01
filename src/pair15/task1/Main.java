@@ -16,6 +16,5 @@ public class Main {
         //1.7 Проверить, содержится ли элемент в коллекции (любой).
         Scanner scanner = new Scanner(System.in);
         List<String> list = new ArrayList<>();
-
     }
 }
