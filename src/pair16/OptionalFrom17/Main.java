@@ -22,7 +22,7 @@ public class Main {
 
 
         //String result = opt2.orElseThrow();
-        //String result2 = Optional.ofNullable(email).orElseThrow((() -> new Exception()));
+        //String result2 = Optional.ofNullable(email).orElseThrow(() -> new Exception());
         boolean result3 = Optional.ofNullable(email).filter(value -> value.length()>5).isPresent();
         System.out.println(result3);
     }
